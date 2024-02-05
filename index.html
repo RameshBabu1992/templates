@@ -1,0 +1,279 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Tag Preview</title>
+		<meta name='viewport' content='width=device-width, initial-scale=1'/>
+		<meta charset='UTF-8'/>
+		<style>
+			.errorMessage {text-align: center; padding: 10px; width: 50%; margin: 0px auto;}
+			#vastVideo{width: 700px; margin: 10px auto;}
+            a,a:hover,body,html {
+            color: #202020;
+            }
+            header,html {
+                background: #fff
+            }
+            blockquote,body,code,dd,div,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,input,legend,li,ol,p,pre,td,textarea,th,ul {
+                margin: 0;
+                padding: 0
+            }
+            table {
+                border-collapse: collapse;
+                border-spacing: 0
+            }
+            fieldset,img {
+                border: 0
+            }
+            address,caption,cite,code,dfn,em,strong,th,var {
+                font-style: normal;
+                font-weight: 400
+            }
+            ol,ul {
+                list-style: none
+            }
+            caption,th {
+                text-align: left
+            }
+            q:after,q:before {
+                content: ''
+            }
+            abbr,acronym {
+                border: 0;
+                font-variant: normal
+            }
+            sup {
+                vertical-align: text-top
+            }
+            sub {
+                vertical-align: text-bottom
+            }
+            input,select,textarea {
+                font-family: inherit;
+                font-size: inherit;
+                font-weight: inherit
+            }
+            legend {
+                color: #000
+            }
+            * {
+                outline: 0
+            }
+            body,html {
+                margin: 0;
+                font: 12px/1.3em Arial, Tahoma, Trebuchet MS, Helvetica, sans-serif
+            }
+            a {
+                text-decoration: none;
+                cursor: pointer
+            }
+            ::selection {
+                color: #fff;
+                background: #0cc
+            }
+            ::-moz-selection {
+                color: #fff;
+                background: #0cc
+            }
+            ::-webkit-input-placeholder {
+                opacity: .7
+            }
+            :-moz-placeholder {
+                opacity: .7
+            }
+            ::-moz-placeholder {
+                opacity: .7
+            }
+            :-ms-input-placeholder {
+                opacity: .7
+            }
+            .clear {
+                clear: both;
+                border: 0
+            }
+            .floatleft {
+                float: left
+            }
+            .floatright {
+                float: right
+            }
+            #mainContainer {
+                width: 100%
+            }
+            #mainContainer .center {
+                width: 1000px;
+                margin: auto
+            }
+            #mainContainer .responsive {
+                min-width: 1000px;
+                width: 98%;
+                margin: auto
+            }
+            header {
+                /* position: fixed; */
+                top: 0;
+                left: 0;
+                width: 100%;
+                z-index: 99999999;
+                border-bottom:1px solid #2aa;
+            }
+            header nav ul,header nav ul li {
+                list-style-type: none;
+                -webkit-touch-callout: none;
+                -webkit-user-select: none;
+                -khtml-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                user-select: none
+            }
+            header nav ul li {
+                display: inline-block;
+                text-align: center;
+                border-left: 1px solid #333;
+                border-right: 1px solid #333;
+                float: right;
+                cursor: pointer;
+                font-size: 14px
+            }
+            header nav ul li a {
+                padding: 14px 8px;
+                display: block
+            }
+            header nav ul li:first-child {
+                border: 0;
+                float: left
+            }
+            header nav ul li:first-child a {
+                padding: 8px 0
+            }
+            header nav ul li:hover,header nav ul li:hover a {
+                background: #0ee;
+                color: #000
+            }
+            header .g-title {
+                background: #0cc;
+                color: #111;
+                padding: 15px 2px 15px 20px;
+                font-size: 24px;
+                height: fit-content;
+            }
+            section.content {
+                margin-top: 120px
+            }
+            #react-app {
+                width: fit-content;
+                margin: auto;
+            }
+            html,body {
+                background: #fafafa !important;
+            }
+
+.menu-items-div {
+  width: 14%;
+  float: left;
+  background: #0cc;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 707px;
+  background-size: 180px;
+}
+
+
+h2{
+    font-weight: normal;
+    font-size: 16px;
+}
+
+
+
+iframe{
+    width:82%;
+    height: 707px;
+    border:none;
+}
+#Menu
+    {
+        padding:0;
+        margin:0;
+        list-style-type:none;
+        font-size:13px;
+        color:#717171;
+        width:100%;
+    }
+    #Menu
+    {
+        padding:0;
+        margin:0;
+        list-style-type:none;
+        font-size:13px;
+        color:#050505;
+        width:100%;
+    }
+
+    #Menu li
+    {
+        /* border-bottom:1px solid #eeeeee; */
+        padding:7px 10px 7px 10px;
+    }
+
+    #Menu li:hover
+    {
+        background:#0ee;
+    }
+#Menu li:hover a
+    {
+        color: #050505;
+    }
+
+    #Menu a:link
+    {
+        color: #050505;
+        text-decoration:none;
+    }
+
+    #Menu a:hover
+    {
+      color: #050505;
+    }
+		</style>
+	</head>
+	<body>
+		<div id='mainContainer'>
+		<header>
+			<div class='g-title'>
+				<h4>
+                    <div class='floatleft'>Demo Link</div>
+                </h4>
+                <div class='floatright'>
+                    <small></small>
+                </div>
+                <hr class='clear'/>
+			</div>
+		</header>
+        <div class="menu-items-div">
+            <ul id="Menu">
+                <li>
+                    <a href="/template1/index.html" target="_blank"><h2>Template1</h2></a>
+                </li>
+                <li>
+                    <a href="/template2/index.html" target="_blank"><h2>Template2</h2></a>
+                </li>
+                <li>
+                    <a href="/template3/index.html" target="_blank"><h2>Template3</h2></a>
+                </li>
+                <li>
+                    <a href="/template4/index.html" target="_blank"><h2>Template4</h2></a>
+                </li>
+                <li>
+                    <a href="/template5/index.html" target="_blank"><h2>Template5</h2></a>
+                </li>
+                <li>
+                    <a href="/template6/index.html" target="_blank"><h2>Template6</h2></a>
+                </li>
+            </ul>
+        </div>
+        <div style="height: 100%;">
+            <iframe name="render" src="./home.html"></iframe>
+        </div>
+	</body>
+</html>
